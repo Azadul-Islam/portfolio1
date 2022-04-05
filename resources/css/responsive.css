@@ -1,0 +1,38 @@
+
+
+@media screen and (max-width:1040px) {
+    
+    html {
+        font-size: 18px;
+    
+    }
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+    .about .grid-container {
+        grid-row-gap:30px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    
+    html {
+        font-size: 16px;
+    }
+    .hero-text p {
+        width: 100%;
+    }
+    h2 {
+        font-size: 300%;
+    }
+    .photography p {
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    .grid-container {
+        grid-template-columns: auto;
+        grid-column-gap: 0px ;
+    }
+
+}
